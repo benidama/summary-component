@@ -15,22 +15,62 @@ body {
   display: grid;
 }
 .grid-container {
-  background-color: hsl(225, 100%, 98%);
+  display: grid;
+  border-radius: 0px 0px 12px 12px;
 }
 
+.person-with-phone {
+  border-radius: 12px 12px 0px 0px;
+}
 .content {
+  background-color: hsl(225, 100%, 98%);
   display: flex;
   flex-direction: column;
   gap: 5px;
   text-align: center;
+  border-radius: 0px 0px 12px 12px;
+}
+
+.btn-order-cancel {
+  background-color: hsl(225, 100%, 98%);
 }
 
 .price-card {
+  background-color: hsl(225, 100%, 94%);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 4px 50px 4px 50px;
 }
 #music-content {
   display: flex;
   flex-direction: row;
+}
+
+.card-link {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+#price {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.btn-success {
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 5px;
+}
+
+.button {
+  width: 300px;
+}
+
+.btn-order-cancel {
+  margin: 5px 0px 12px 0px;
+  border-radius: 5px;
 }
